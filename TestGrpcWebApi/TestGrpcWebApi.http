@@ -1,0 +1,6 @@
+@TestGrpcWebApi_HostAddress = http://localhost:5115
+
+GET {{TestGrpcWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
