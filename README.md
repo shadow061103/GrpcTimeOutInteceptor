@@ -1,0 +1,4 @@
+- Test:測試用的grpc服務
+- TestGrpcTimeout:原生方式設定deadline或CancellationTokenSource，可以比較兩種方法的不同
+- TestGrpcCancelInterceptor:測試改用inteceptor來測試deadline
+- TestGrpcWebApi:比照正常公司開發註冊grpc的方式來打grpc服務
